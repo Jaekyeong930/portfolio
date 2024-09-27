@@ -125,4 +125,30 @@ code {
 article {
   scroll-margin-top: 70px;
   height:1000px;
+  padding: 100px 0;
+}
+
+#profile {
+  height:500px;
+}
+
+.article_title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+table {
+  margin: 0 auto;
+  border-style: solid;
+}
+th {
+  padding: 5px;
+  text-align: left;
+}
+td {
+  padding: 5px;
+  text-align: left;
 }
