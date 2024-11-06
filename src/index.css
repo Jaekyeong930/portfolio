@@ -74,6 +74,7 @@ code {
   cursor: pointer;
 }
 
+/* 모바일 or 태블릿의 경우 */
 @media (max-width: 992px) {
 
   .menu-toggle {
@@ -115,40 +116,64 @@ code {
     padding: 10px 0 0 0;
   }
 
-
 }
 
+/* 프롤로그 (대문) */
 .prolog_content {
-  padding: 70px 0 0 0;
+  padding: 170px 0 0 0;
 }
 
+/* 컨텐츠 공통 */
 article {
   scroll-margin-top: 70px;
   height:1000px;
   padding: 100px 0;
 }
-
-#profile {
-  height:500px;
-}
-
 .article_title {
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
   font-weight: bolder;
-  color: #333;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
 }
 
-table {
+/* Profile */
+#profile {
+  height:500px;
+}
+
+.article_title__profile {
+  color: #333;
+}
+
+.article_skills_basic-info > table {
   margin: 0 auto;
   border-style: solid;
 }
-th {
+.article_skills_basic-info > th {
   padding: 5px;
   text-align: left;
 }
-td {
+.article_skills_basic-info > td {
   padding: 5px;
   text-align: left;
 }
+
+/* Skils */
+.article_skills {
+
+}
+.article_skills_container {
+
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* Projects */
+
+
+/* Career */
